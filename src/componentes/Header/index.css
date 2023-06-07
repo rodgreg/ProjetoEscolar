@@ -1,0 +1,49 @@
+#header {
+    display: flex;
+    background-image: linear-gradient(to right , rgb(0, 122, 41), #c8f8d2);
+    align-items: left;
+    padding-bottom: 0rem;
+}
+
+#LogoDiv {
+    display:grid;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    height: 100%;
+    padding: 0 15px;
+
+
+}
+
+#LogoImagem {
+    margin: 0;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+#LogoTexto {
+    margin: 0;
+    width: 13rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#MenuHeaderLista {
+    display: flex;
+}
+
+#MenuHeaderRota {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 15px;
+    cursor: pointer;
+    min-width: 120px;
+
+}

@@ -1,0 +1,111 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+
+input, select, button {
+    border-radius: 5px;
+    height: 20px;
+}
+
+textarea {
+    border-radius: 5px;
+    height: 50px;
+    width: 95%;
+    border: #000 solid 1.5px;
+    padding: 5px;
+}
+
+label {
+    margin: 0px 5px 0px 10px;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#formContainer {
+    display:block;
+    margin:  0px 0px 0px 50px;
+    align-items: center;
+    text-align: left;
+    width: 55%;
+    height: 50%;
+    border: #000 ridge 2px;
+    
+}
+
+#formContainerDiv {
+    border: #b6b6b8 solid .5px;
+    padding: 5px;
+
+}
+
+#FormCombobox {
+    border: #55555733 groove px;
+}
+
+
+#FormButton {
+
+    border: #000000 dotted 1px;
+    color: #000;
+    font-weight: bold;
+    background-color: #c0c0c0;
+    margin: 10px 0px 10px 75%;
+    padding: auto;
+    width: 100px;
+    height: 25px;
+}
+
+#tipoOcorrencia {
+    text-align: center;
+    margin:  5px 0px 0px 20px;
+}
+
+#ulDoMenu {
+    display: flex;
+    width: auto;
+    align-items: center;
+    align-content: center;
+}
+
+#liDoMenu {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 15px;
+    cursor: pointer;
+    min-width: 120px;
+    border: #000 solid 2px ;
+    border-radius: 5px;
+}
+
+#menu {
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+#formularioDeOcorrencias {
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+#FormCombobox {
+    height: 20px;
+    width: auto;
+
+}
